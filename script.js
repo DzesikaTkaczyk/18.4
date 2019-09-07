@@ -73,6 +73,7 @@ var MovieDescription = React.createClass( {
 var MoviePoster = React.createClass ( {
 	propTypes: {
 		img: React.PropTypes.string.isRequired,
+		alt: React.PropTypes.string.isRequired,
 	},
 
 	render: function() {
